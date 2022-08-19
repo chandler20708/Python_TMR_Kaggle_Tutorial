@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class TMRKaggleTutorial:
-    def __init__(self, dataset) -> None:
+    def __init__(self) -> None:
         self.dataset = [{'name': 'Linda',
             'characters_used': "['Link', 'Pikachu', 'Pikachu', 'Mario', 'Yoshi']",
             'wins': 5},
