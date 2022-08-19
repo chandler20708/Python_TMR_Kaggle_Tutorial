@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 @dataclass(frozen=True)
-class TMRKaggleTurtorial:
+class TMRKaggleTutorial:
     def __init__(self, dataset) -> None:
         self.dataset = [{'name': 'Linda',
             'characters_used': "['Link', 'Pikachu', 'Pikachu', 'Mario', 'Yoshi']",
